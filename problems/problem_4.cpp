@@ -3,8 +3,6 @@
 
 std::string problemSolution4(const std::string &macAddress) {
     // write your code here
-    std::string macAddress;
-    std::getline(std::cin, macAddress);
 
     std::stringstream ss(macAddress);
     std::string hexNumber;
